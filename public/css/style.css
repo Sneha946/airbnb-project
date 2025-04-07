@@ -1,0 +1,108 @@
+body{
+    background-color:rgb(183, 215, 244);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex:1;
+}
+/* NavBar */
+.navbar{
+    height:5rem;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+.navbar-brand i{
+    font-size: 2rem;
+    color:#fe424d;
+}
+.nav-link{
+    color:#222222 !important;
+}
+/* footer */
+
+.f-info-links{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links:hover{
+    text-decoration: underline;
+}
+.f-info-socials{
+    width:100%;
+}
+.f-info-socials i{
+    font-size: 1.5rem;
+    margin-right:1.5rem;
+}
+.f-info-links{
+    width:100%;
+}
+.f-info{
+    text-align: center;
+    height:8rem;
+    background-color:#ebebeb ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* Cards */
+.listing-card{
+    border:none !important;
+    margin-bottom:2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width:100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding:0;
+
+}
+.card-text p{
+    font-weight:400;
+
+}
+.listing-link{
+    text-decoration: none;
+}
+
+/* Card-effect */
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+
+
+}
+
+/* New Page */
+.add-btn{
+    background-color: #fe424d !important;
+    border:none !important;
+}
+/* Edit Page */
+.edit-btn{
+    background-color: #fe424d !important;
+    border:none !important;
+}
+
+/* Show Page */
+.show-img{
+    height:70vh;
+
+}
+.btns{
+    display: flex;
+}
+.show-card{
+    padding-left:0 ;
+    padding-right:0;
+}
