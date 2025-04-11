@@ -20,6 +20,18 @@
     border-radius: 25px;
     padding:0.5rem 3.5rem 0.5rem 3.5rem;
   }
+  .navbar-collapse {
+    background-color: white !important;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  /* Optional: Improve visibility for nav links on smaller screens */
+  @media (max-width: 992px) {
+    .navbar-nav .nav-link {
+      color: #000 !important;
+      font-weight: 500;
+    }
 </style>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
@@ -27,7 +39,7 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02" style="background-color:white;">
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
         <li class="nav-item">
           <a class="nav-link" href="/listings">Explore</a>
