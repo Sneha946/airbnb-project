@@ -20,18 +20,19 @@
     border-radius: 25px;
     padding:0.5rem 3.5rem 0.5rem 3.5rem;
   }
-  .navbar-collapse {
-    background-color: white !important;
-    padding: 1rem;
-    border-radius: 10px;
-  }
-
-  /* Optional: Improve visibility for nav links on smaller screens */
-  @media (max-width: 992px) {
-    .navbar-nav .nav-link {
-      color: #000 !important;
-      font-weight: 500;
+  /* Fix for collapsed navbar background */
+  @media (max-width: 991.98px) {
+    .navbar-collapse {
+      background-color: white !important;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
+
+    .navbar-collapse .nav-link {
+      color: black !important;
+    }
+}
 </style>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
